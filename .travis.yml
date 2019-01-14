@@ -1,6 +1,4 @@
-language: go
+language: node_js
 
-go:
-  - "1.x"
-  - "1.11.4"
-  - master
+node_js:
+  - "node"
