@@ -17,7 +17,7 @@ func index(res http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
-	//test
+	//test1
 	http.HandleFunc("/", index)
 
 	http.ListenAndServe(":8080", nil)
